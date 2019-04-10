@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Musicality</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed:500i" rel="stylesheet">
+    <script>
+        document.body.classList.add('js-loading');
+
+        window.addEventListener("load", showPage);
+
+        function showPage() {
+            document.body.classList.remove('js-loading');
+        }
+    </script>
+</head>
+
+<!--             Style Rule Prefixes:
+|                Presentation Element Naming  (p)|  
+|                Animation Naming             (a) 
+|                Interactive Element Naming   (i)
+|                Debugging                    (d)
+|                Containers                   (c)
+|                Function Naming              (-)    
+-->
+
+<body class="-snugContainer">
+    <div id="pBackground" class="-snugContainer -layerZero"></div>
+    <div id="Content" class="-vFlex">
+        <a href="home.html" class="-layerOne"><img src="assets/Musicality Logo.png" alt="Musicality Logo"
+                id="pLogo"></a>
+        <div id="cPrimaryText">
+            <svg id="pArrow" xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 384 1051" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1">
+                <g fill="#fff">
+                    <path d="M0 1050v-87l320-438L0 88V0l384 525L0 1050z" />
+                    <path d="M0 1050v-87l221-438L0 88V0l285 525L0 1050z" />
+                    <path d="M0 1050v-87l128-438L0 88V0l192 525L0 1050z" />
+                </g>
+            </svg>
+            <!--<div class="circle"></div>-->
+            <h1>
+                Hi. I'm new to this music-making stuff.
+            </h1>
+        </div>
+        <nav>
+            <div id="filledNode"></div>
+            <a href="home.html" id="lGhostNode" class="ghostNode"></a>
+            <svg id="leftNode" class="node" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                viewBox="0 0 76 57" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="square"
+                stroke-linejoin="round" stroke-miterlimit="1.5">
+                <path
+                    d="M71.617 39.53h-1.926a47.998 47.998 0 0 0-27.445 8.62 23.936 23.936 0 0 1-13.722 4.298c-13.284 0-24.07-10.785-24.07-24.07S15.24 4.307 28.524 4.307c5.099 0 9.829 1.589 13.723 4.298a48.003 48.003 0 0 0 27.444 8.62l1.926.001"
+                    serif:id="Left Node" fill="none" stroke="#fff" stroke-width="8.43" />
+            </svg>
+            <a href="songs.html" id="cGhostNode" class="ghostNode"></a>
+            <svg id="nodeConnector" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                viewBox="0 0 1374 31" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="square"
+                stroke-linejoin="round" stroke-miterlimit="1.5" preserveAspectRatio="none">
+                <path id="innerNodeConnector" fill="none" stroke="#fff" stroke-width="8.43"
+                    d="M4.417 4.266h1365.02M1369.44 26.57H4.42" />
+            </svg>
+            <a href="about.html" id="rGhostNode" class="ghostNode"></a>
+            <svg id="centerNode" class="node" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="1.5"
+                clip-rule="evenodd" viewBox="0 0 94 57">
+                <path fill="none" stroke="#fff" stroke-width="8.43"
+                    d="M89.054 39.53a52.018 52.018 0 0 0-29.036 8.857 23.769 23.769 0 0 1-13.341 4.061c-4.938 0-9.531-1.49-13.352-4.044A52.006 52.006 0 0 0 4.3 39.55m0-22.324a52.026 52.026 0 0 0 29.036-8.857 23.767 23.767 0 0 1 13.341-4.062c4.938 0 9.53 1.491 13.352 4.045a52.006 52.006 0 0 0 29.025 8.854"
+                    serif:id="Center Node" />
+            </svg>
+            <svg id="rightNode" class="node" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/"
+                viewBox="0 0 76 57" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="square"
+                stroke-linejoin="round" stroke-miterlimit="1.5">
+                <path
+                    d="M4.317 17.226h1.925a47.998 47.998 0 0 0 27.445-8.62 23.937 23.937 0 0 1 13.722-4.299c13.285 0 24.07 10.786 24.07 24.071 0 13.285-10.785 24.07-24.07 24.07a23.948 23.948 0 0 1-13.723-4.297 47.995 47.995 0 0 0-27.444-8.62l-1.925-.001"
+                    serif:id="Right Node" fill="none" stroke="#fff" stroke-width="8.43" />
+            </svg>
+
+            <a href="home.html" class="pLink" id="home"><i>Home</i></a>
+
+            <a href="songs.html" class="pLink" id="songs"><i>Songs</i></a>
+
+            <a href="about.html" class="pLink" id="about"><i>About</i></a>
+        </nav>
+    </div>
+</body>
+
+</html>
