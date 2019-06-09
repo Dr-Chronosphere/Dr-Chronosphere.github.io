@@ -1,0 +1,204 @@
+/* Declarations */
+
+@font-face {
+    font-family: 'Butler Black';
+    src: url('../assets/webfonts/butler_black-webfont.woff2');
+}
+
+/* Presentation */
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Butler Black', serif;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    z-index: 2;
+}
+
+#pBackground {
+    background-image: url(../assets/images/Blurred\ Sky.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* Functions (-) */
+
+.-snugContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.-layerOne {
+    z-index: 1;
+}
+
+.-layerZero {
+    z-index: 0;
+}
+
+.-vFlex {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20%;
+    width: 100%;
+}
+
+.-vhAlign {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Navigation*/
+
+/* Preliminary Info */
+
+nav {
+    z-index: 5;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50px 5px auto 65px auto 5px 50px;
+    grid-template-rows: 57.5px 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#filledNode {
+    background-color: white;
+    clip-path: circle();
+    height: 18px;
+    width: 18px;
+    position: relative;
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ghostNode {
+    clip-path: circle();
+    height: 41.25px;
+    width: 41.25px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ghostNode:hover {
+    opacity: .9;
+}
+
+/* Row 1 */
+
+#lGhostNode {
+    grid-row: 1;
+    grid-column: 1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#leftNode {
+    align-self: center;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    position: relative;
+}
+
+#nodeConnector {
+    height: 23px;
+    align-self: center;
+    justify-self: stretch;
+    grid-column: 2 / span 5;
+    grid-row: 1;
+}
+
+#cGhostNode {
+    grid-row: 1;
+    grid-column: 4;
+    align-self: center;
+    justify-self: center;
+}
+
+#centerNode {
+    align-self: center;
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: center;
+}
+
+#rGhostNode {
+    grid-row: 1;
+    grid-column: 7;
+    position: relative;
+    left: 8.75px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#rightNode {
+    align-self: center;
+    justify-self: start;
+    grid-column: 6 /span 2;
+    grid-row: 1;
+}
+
+/* Second Row */
+
+#navText {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    z-index: 1;
+}
+
+#songs {
+    grid-column: 4;
+    justify-self: center;
+}
+
+#about {
+    grid-column: 7;
+    justify-self: end;
+}
+
+.pLink {
+    font-family: 'Asap Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 10px #aaa;
+    align-self: center;
+    
+}
+
+.pLink:hover {
+    color: rgb(1, 111, 155);
+}

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Butler Black';
-    src: url('../../webfonts/butler_black-webfont.woff2');
+    src: url('../assets/webfonts/butler_black-webfont.woff2');
 }
 
 /* Animations (a) */
@@ -108,7 +108,7 @@ html {
 }
 
 #pBackground {
-    background-image: url('../assets/images/Sweet\ Blue\ Sky.jpg Blue Sky.jpg');
+    background-image: url(../assets/images/Sweet\ Blue\ Sky.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
