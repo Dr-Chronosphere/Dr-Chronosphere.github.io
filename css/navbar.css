@@ -1,0 +1,143 @@
+nav {
+    z-index: 5;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50px 5px auto 5px 65px 5px auto 5px 50px;
+    grid-template-rows: 57.5px 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#filledNode {
+    background-color: white;
+    clip-path: circle();
+    height: 18px;
+    width: 18px;
+    position: relative;
+    /*grid-column: ?;*/
+    grid-row: 1;
+    align-self: center;
+}
+
+.ghostNode {
+    clip-path: circle();
+    height: 41.25px;
+    width: 41.25px;
+    z-index: 3;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.ghostNode:hover {
+    opacity: .9;
+}
+
+/* Row 1 */
+
+#lGhostNode {
+    grid-row: 1;
+    grid-column: 1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#leftNode {
+    align-self: center;
+    justify-self: end;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    position: relative;
+}
+
+#leftnodeConnector {
+    height: 23px;
+    align-self: center;
+    justify-self: stretch;
+    grid-column: 2 / span 3;
+    grid-row: 1;
+}
+
+#rightnodeConnector {
+    height: 23px;
+    align-self: center;
+    justify-self: stretch;
+    grid-column: 6 / span 3;
+    grid-row: 1;
+}
+
+#cGhostNode {
+    grid-row: 1;
+    grid-column: 5;
+    align-self: center;
+    justify-self: center;
+}
+
+#centerNode {
+    height: 42px;
+    align-self: center;
+    grid-column: 4 / span 3;
+    grid-row: 1;
+    justify-self: center;
+}
+
+#rGhostNode {
+    grid-row: 1;
+    grid-column: 9;
+    position: relative;
+    left: 8.75px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#rightNode {
+    align-self: center;
+    justify-self: start;
+    grid-column: 8 /span 2;
+    grid-row: 1;
+}
+
+/* Second Row */
+
+#navText {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;
+    z-index: 1;
+}
+
+#home {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: start;
+}
+
+#songs {
+    grid-column: 5;
+    justify-self: center;
+}
+
+#about {
+    grid-column: 9;
+    justify-self: end;
+}
+
+.pLink {
+    font-family: 'Asap Condensed', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 10px #aaa;
+    align-self: center;
+    
+}
+
+.pLink:hover {
+    color: rgb(1, 111, 155);
+}
