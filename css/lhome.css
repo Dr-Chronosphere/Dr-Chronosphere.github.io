@@ -105,6 +105,7 @@ html {
     justify-content: center;
     align-items: center;
     height: 60%;
+    position: absolute;
 }
 
 #pBackground {
@@ -121,6 +122,8 @@ html {
 
 #pLogo {
     width: 50px;
+    position: absolute;
+    top: 20px;
     transition: all 0.5s;
 }
 
@@ -159,9 +162,8 @@ h1 {
     }
 }
 
-/*Navigation*/
-
 #filledNode {
     grid-column: 1;
+    grid-row: 1;
     left: 12px;
 }
