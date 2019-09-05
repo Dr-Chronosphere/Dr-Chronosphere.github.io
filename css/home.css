@@ -114,9 +114,10 @@ h1 {
         left: 10%;
     }
     #cPrimaryText {
-        width: 90%;
+        width: 60%;
         position: absolute;
         top: 15%;
+        left: 20%;
     }
     #pArrow {
         position: absolute;
