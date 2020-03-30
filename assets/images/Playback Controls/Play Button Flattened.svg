@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 123 122" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-21795,-24702)">
+        <g transform="matrix(0.304729,0,0,0.149476,19018.9,21697.1)">
+            <g id="Play-Button-Flattened" serif:id="Play Button Flattened" transform="matrix(3.2816,0,0,6.69003,-62412.4,-145154)">
+                <path d="M21856.4,24702.5C21889.9,24702.5 21917.1,24729.7 21917.1,24763.2C21917.1,24796.8 21889.9,24824 21856.4,24824C21822.9,24824 21795.7,24796.8 21795.7,24763.2C21795.7,24729.7 21822.9,24702.5 21856.4,24702.5ZM21879.9,24761C21881.5,24762 21882.4,24763.7 21882.4,24765.5C21882.4,24767.3 21881.5,24769 21879.9,24769.9C21871.2,24775.2 21856.6,24784.2 21847.6,24789.7C21846,24790.7 21844,24790.7 21842.3,24789.8C21840.7,24788.8 21839.7,24787.1 21839.7,24785.2C21839.7,24774.4 21839.7,24756.5 21839.7,24745.7C21839.7,24743.8 21840.7,24742.1 21842.3,24741.2C21844,24740.2 21846,24740.3 21847.6,24741.3C21856.6,24746.8 21871.2,24755.7 21879.9,24761Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>
